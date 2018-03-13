@@ -20,6 +20,9 @@ public:
         }
 
         //step 2: 递归的拆解
+        //此处： i = startIndex; 同义化[1, 1, 2] 和[1, 2, 1]是一样的
+        //如果是： i = 0； 区分了[1, 1, 2] 和[1, 2, 1] 是不一样的
+        //所以看清题意： 同义化i = startIndex, 区分i = 0
         for(int i = startIndex; i < nums.size(); i++)
         {
             if(target < nums[i])
