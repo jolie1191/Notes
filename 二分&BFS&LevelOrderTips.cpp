@@ -7,7 +7,7 @@
 using namespace std;
 
 
-//总结：set, map 和ordered_set, unordered_map 和multiset, unordered_mutlimap..区别
+//总结：set, map 和unordered_set, unordered_map 和multiset, unordered_mutlimap..区别
 //1. unordered_map, unordered_set 属于 hashTable一类， O(1)， 不能有duplicate key
 //2. set, map 是平衡二叉树：RB-tree一种， O(logn)， key会“自动排序”， key不能有duplicate
 //要duplicate， 全用multiset， unordered_mutlimap等， 关键字multi-
