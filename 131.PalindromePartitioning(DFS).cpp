@@ -12,6 +12,11 @@ Return
 ]
 */
 
+/*
+思路： 
+1. 类似subset, 只不过不push_back(nums[i])换成了substring
+*/
+
 class Solution {
 public:
     vector<vector<string>> partition(string s) {
