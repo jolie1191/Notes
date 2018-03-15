@@ -21,6 +21,14 @@ Input: "2*3-4*5"
 Output: [-34, -14, -10, -10, 10]
 */
 
+/*
+注意点：
+1. 思考return结果是vector<int>
+2. 考虑string只有数字的情况
+3. atoi(char *): 把string str类型转化char *s1 : str.c_str()
+
+*/
+
 class Solution {
 public:
     vector<int> diffWaysToCompute(string input) {
