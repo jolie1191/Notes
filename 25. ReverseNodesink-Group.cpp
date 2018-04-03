@@ -44,10 +44,10 @@ public:
         ListNode* dummy = new ListNode(0);
         dummy->next = head;
         
-        head = dummy;
-        while(head != NULL)
+        ListNode* curt = dummy;
+        while(curt != NULL)
         {
-            head = reverNextK(head,k);
+            curt = reverNextK(curt,k);
         }
         
         return dummy->next;
