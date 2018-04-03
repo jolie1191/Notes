@@ -17,6 +17,17 @@ For k = 3, you should return: 3->2->1->4->5
 
 */
 
+/*
+1. 思路： 
+- 分成k个k个的去reverse
+- 使用dummy node，题目处理完后方便access head节点
+- reverseNextK(head, k): 从head的之后的一个节点开始，reverse k 个节点， 并return下次需要开始reverse的第一个节点的前一个节点
+
+a->n1->n2->n3->...->nk
+每次reverse k个节点(n1->n2->n3->...>nk)， 收到影响的节点也包括a, 所以需要一个Dummy node（dummy node永远在这，不会变）
+
+
+*/
 
 
 /**
