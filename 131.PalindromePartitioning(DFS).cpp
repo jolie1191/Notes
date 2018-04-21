@@ -12,6 +12,14 @@ Return
 ]
 */
 
+<<<<<<< HEAD
+=======
+/*
+思路： 
+1. 类似subset, 只不过不push_back(nums[i])换成了substring
+*/
+
+>>>>>>> 7b8904c435b5b96d69d983541cdc526d1d8e9f69
 class Solution {
 public:
     vector<vector<string>> partition(string s) {
