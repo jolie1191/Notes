@@ -45,8 +45,9 @@ public class Main {
         * 2. A-Z： 65-90
         * 3.a-z: 97-122 */
 
-        char a = 'a';
-        int b = a;
+        char ch = 'a';
+        int b = ch;
+        //int b = ch - 'a';
 
         int c = 90;
         char d = (char) c;
