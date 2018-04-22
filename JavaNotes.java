@@ -46,7 +46,7 @@ public class Main {
         * 3.a-z: 97-122 */
 
         char a = 'a';
-        int b = a + 1;
+        int b = a;
 
         int c = 90;
         char d = (char) c;
