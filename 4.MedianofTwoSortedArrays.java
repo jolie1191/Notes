@@ -1,5 +1,6 @@
 public class MedianofTwoSortedArrays {
 
+    //具体分析： https://blog.csdn.net/chen_xinjia/article/details/69258706
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
 
         //cut1: # of numbers on the left side of the cut on nums1
