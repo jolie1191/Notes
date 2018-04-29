@@ -19,6 +19,9 @@ public class WordSearch {
         Given word = "ABCB", return false.
 */
 
+    
+    //罗列所有起点+回溯
+    //回溯：一开始就对当前遍历元素的正确和错误状态指出，访问标记一定要先设置，然后回溯结束，重置 
 
     public boolean exist(char[][] board, String word) {
 
